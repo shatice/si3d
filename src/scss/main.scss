@@ -1,0 +1,46 @@
+body {
+  overflow-x: hidden;
+}
+
+section {
+  width: 100vw; 
+  height: 100vh;
+  position: relative;
+  border: solid black;
+}
+
+.container--horizontal {
+  background: teal;
+  height: 300vw;
+}
+
+.container--horizontal.is-fixed {
+  .container--inner {
+    position: fixed;
+  }
+}
+
+.container--horizontal.is-scrolled {
+  .container--inner {
+    bottom: 0;
+    top: auto;
+  }
+}
+
+.container--inner {
+  width: 300vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.story--container {
+  display: flex;
+}
+
+.story--board {
+  flex-basis: 100vw;
+  height: 100vh;
+  border: solid white;
+}
