@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  position: relative;
 }
 
 section {
@@ -9,7 +10,6 @@ section {
 }
 
 .container--horizontal {
-  background: teal;
   height: 300vw;
 }
 
@@ -41,5 +41,5 @@ section {
 .story--board {
   flex-basis: 100vw;
   height: 100vh;
-  border: solid white;
+  border: solid black;
 }
