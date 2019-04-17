@@ -4,10 +4,18 @@
   }
 }
 
-
 @keyframes work {
   to {
     transform: rotate(-35deg) translateY(400px) translateX(-420px);
+  }
+}
+
+@keyframes reduce {
+  50% {
+    transform: scale(0.2);
+  }
+  100% {
+    transform: scale(0.2) translateY(-200vh);
   }
 }
 
@@ -15,15 +23,12 @@
   width: 100vw; 
   height: 100vh;
   opacity: 0;
-  animation: appear 3s forwards;
+  animation: appear 3s forwards, reduce 1s 5s forwards;
+  position: fixed;
 }
 
 .hammer {
   transform: rotate(0) translateY(0) translateX(0);
   animation: work 1.5s 1s ease-out alternate;
   animation-iteration-count: 2;
-}
-
-.home {
-  // display: none;
 }
