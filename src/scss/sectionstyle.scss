@@ -1,0 +1,51 @@
+.style__content {
+  height: 100vh; 
+  width: 60vw; 
+  margin: 0 auto; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.style__article {
+  height: 50%; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-around; 
+  align-items: left;
+  width: 20%; 
+}
+
+.style__icon {
+  width: 150px;
+  transition: all 1s;
+}
+
+.style__icon--wood {
+  fill: #8C8172;
+  &:hover {
+    fill: #8C8172;
+  }
+}
+
+.style__icon--eiffel {
+  fill: #E49376;
+  &:hover {
+    fill: #E49376;
+  }
+}
+
+.style__icon--green {
+  fill: #829D27;
+  &:hover {
+    fill: #829D27;
+  }
+}
+
+.text {
+  line-height: 1.5; 
+}
+
+h3 {
+  font-size: 1.5rem; 
+}
