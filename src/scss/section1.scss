@@ -1,0 +1,41 @@
+
+.story__bord__content--title{
+  font-size: 4.500em;
+  color: #E8ADA8;
+  font-weight: bold;
+  margin-bottom: 2%; 
+}
+
+
+.story__bord__content :nth-child(2){
+  margin-bottom: 5%;
+}
+
+.story__bord__content--paragaphe{
+  font-size: 1.500em;
+  width: 50vw;
+  color: #6A9C9D;
+  font-weight: medium;
+}
+
+.pink__span{
+  color: #E8ADA8;
+  font-weight: bold
+}
+
+.scroll__element{
+ display: flex;
+ position: absolute;
+ justify-content: space-between;
+ width: 7vw;
+ align-items: center;
+ transform: translateX(45vw);
+ color: #6A9C9D;
+}
+
+
+.scroll__element__animation{
+  height: 0.5vh;
+  width: 3vw;
+  background-color: #6A9C9D;
+}

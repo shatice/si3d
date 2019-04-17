@@ -9,7 +9,7 @@ section {
 }
 
 .container--horizontal {
-  background: teal;
+  
   height: 300vw;
 }
 
@@ -41,7 +41,10 @@ section {
 .story--board {
   flex-basis: 100vw;
   height: 100vh;
-  border: solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat';
 }
 
 @keyframes appear {
@@ -50,20 +53,43 @@ section {
   }
 }
 
-.ui__elements{
-  height: 100vh; 
-  width: 100vw;
-  position: absolute;
-  background: transparent;
-  display: flex;
-  justify-content: space-between; 
-  z-index: -1;
-  opacity: 0;
-  animation: appear 3s 1s forwards;
+.story__bord__content--title{
+  font-size: 4.500em;
+  color: #E8ADA8;
+  font-weight: bold;
+  margin-bottom: 2%; 
 }
 
-.ui__element{
-  height: 100vh;
-  width: 0.1vw;
-  background-color: #A9C6DA;
+
+.story__bord__content :nth-child(2){
+  margin-bottom: 5%;
+}
+
+.story__bord__content--paragaphe{
+  font-size: 1.500em;
+  width: 50vw;
+  color: #6A9C9D;
+  font-weight: medium;
+}
+
+.pink__span{
+  color: #E8ADA8;
+  font-weight: bold
+}
+
+.scroll__element{
+ display: flex;
+ position: absolute;
+ justify-content: space-between;
+ width: 7vw;
+ align-items: center;
+ transform: translateX(45vw);
+ color: #6A9C9D;
+}
+
+
+.scroll__element__animation{
+  height: 0.5vh;
+  width: 3vw;
+  background-color: #6A9C9D;
 }

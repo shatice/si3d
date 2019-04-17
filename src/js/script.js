@@ -38,3 +38,21 @@ function setTranslateX(element, progression) {
   element.style.transform = 'translateX(' + transform + ')';
 };
 
+document.addEventListener('DOMContentLoaded', function () {
+  
+  var navbar = document.querySelector('header');
+  var sticky = navbar.offsetTop;
+  window.addEventListener('scroll', function(){
+      
+      valScroll = window.scrollY; 
+  
+      if (window.pageYOffset >= sticky) { 
+          navbar.classList.add("sticky"); 
+      } 
+      
+      else {
+          navbar.classList.remove("sticky"); 
+      }
+  
+  })
+});

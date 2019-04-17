@@ -1,0 +1,36 @@
+header{
+  opacity: 0;
+  margin: 1%;
+  display: flex;
+  justify-content: space-between; 
+  color: #6A9C9D;
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  transition-duration: 1s;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.sticky{
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo__header{
+  height: 10vh;
+  width: 5.5vw;
+}
+
+.checkpoint{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #6A9C9D;
+  height: 5vh;
+  width: 12vw;
+  margin-right: 5vw;
+}
