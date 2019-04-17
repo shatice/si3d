@@ -1,0 +1,23 @@
+footer {
+  width: 100vw; 
+  position: fixed; 
+  bottom: 0; 
+  opacity: 0; 
+  animation: appear 1s 6s forwards; 
+}
+
+.list__icons {
+  display: flex;
+  justify-content: space-between; 
+  width: 20vw; 
+  margin: 0 auto; 
+}
+
+.list__icon {
+  width: 60px; 
+  height: 60px;
+
+  svg {
+    width: 100%;
+  }
+}
