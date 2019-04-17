@@ -11,15 +11,19 @@
   }
 }
 
-svg {
+.loader {
   width: 100vw; 
   height: 100vh;
   opacity: 0;
-  animation: appear 3s forwards, disappear 1s 5s forwards;
+  animation: appear 3s forwards;
 }
 
 .hammer {
   transform: rotate(0) translateY(0) translateX(0);
   animation: work 1.5s 1s ease-out alternate;
   animation-iteration-count: 2;
+}
+
+.home {
+  // display: none;
 }
