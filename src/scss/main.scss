@@ -43,3 +43,27 @@ section {
   height: 100vh;
   border: solid black;
 }
+
+@keyframes appear {
+  to {
+    opacity: 1;
+  }
+}
+
+.ui__elements{
+  height: 100vh; 
+  width: 100vw;
+  position: absolute;
+  background: transparent;
+  display: flex;
+  justify-content: space-between; 
+  z-index: -1;
+  opacity: 0;
+  animation: appear 3s 1s forwards;
+}
+
+.ui__element{
+  height: 100vh;
+  width: 0.1vw;
+  background-color: #A9C6DA;
+}

@@ -1,3 +1,3 @@
 Team project | Work in progress...
 
-https://latalier.netlify.com/
+https://latelier.netlify.com/
