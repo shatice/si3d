@@ -1,0 +1,94 @@
+.section2__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50vh;
+  margin-bottom: 10vh; 
+}
+
+.intro__section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.style__number{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat';
+  width: 8vw;
+  justify-content: space-between;
+  margin-bottom: 0.5vh;
+}
+
+.ui__number{
+  background-color: #E8ADA8;
+  height: 0.3vh;
+  width: 1.5vw;
+}
+
+.number{
+  color: #E8ADA8;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.section__title{
+  color: #E8ADA8;
+  font-weight: bold;
+  font-size: 46px;
+  display: flex;
+  justify-content: space-between;
+  height: 8vh;
+}
+
+.section__description{
+ color: #6A9C9D;
+ font-size: 16px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 22vh;
+  margin-right: 10vw;
+}
+
+.img__card{
+  height: 13vh;
+  width: 9vw;
+  margin-bottom: 2vh; 
+}
+
+.title__card{
+  color: #E8ADA8;
+  font-weight: bold;
+  font-size: 27px;
+  display: flex;
+}
+
+.description__card{
+  width: 14vw;
+  color: #6A9C9D;
+  font-size: 16px;
+  text-align: center;
+}
+
+.cards{
+  display: flex;
+  width: 100vw;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  margin-left: 10vw;
+}
+
+.test__canvas{
+  background-color: greenyellow;
+  width: 90vw;
+  padding-top: 50vh;
+}
