@@ -1,2 +1,72 @@
 
+
 @import url(http://fr.allfont.net/allfont.css?fonts=montserrat);
+
+// MONTSERRAT
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/montserrat-black-webfont.woff2') format('woff2'),
+         url('/assets/fonts/montserrat-black-webfont.woff') format('woff');
+    font-weight: black;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/montserrat-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/montserrat-light-webfont.woff2') format('woff2'),
+         url('/assets/fonts/montserrat-light-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('/assets/fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// POPPINS
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/assets/fonts/poppins-black-webfont.woff2') format('woff2'),
+         url('/assets/fonts/poppins-black-webfont.woff') format('woff');
+    font-weight: black;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/assets/fonts/poppins-bold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/assets/fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('/assets/fonts/poppins-light-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/assets/fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('/assets/fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+>>>>>>> ef1c60e2e0dc437ec65bbc3effe5f38881b20bbd

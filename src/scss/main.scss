@@ -1,5 +1,8 @@
 body {
   overflow-x: hidden;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  color: #5B5858; 
 }
 
 section {
@@ -9,7 +12,10 @@ section {
 }
 
 .container--horizontal {
+<<<<<<< HEAD
   
+=======
+>>>>>>> ef1c60e2e0dc437ec65bbc3effe5f38881b20bbd
   height: 300vw;
 }
 
@@ -38,23 +44,153 @@ section {
   display: flex;
 }
 
-.story--board {
+.story__board {
   flex-basis: 100vw;
   height: 100vh;
+<<<<<<< HEAD
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Montserrat';
+=======
+  position: relative;
+  // border: solid black; 
+>>>>>>> ef1c60e2e0dc437ec65bbc3effe5f38881b20bbd
 }
 
-@keyframes appear {
+@keyframes appears {
   to {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
 
+<<<<<<< HEAD
 .ui__section{
   background-color: #6A9C9D;
   height: 3vh;
   width: 5vw;
+=======
+.ui__elements{
+  height: 100vh; 
+  width: 100vw;
+  position: fixed;
+  background: transparent;
+  display: flex;
+  justify-content: space-between; 
+  z-index: -2;
+  opacity: 0;
+  animation: appears 3s 1s forwards;
+  display: none; 
+}
+
+.ui__element{
+  height: 100vh;
+  width: 0.1vw;
+  background-color: #6A9C9D;
+}
+
+header {
+  z-index: -1;
+  width: 100vw; 
+  height: 10vh;
+  background: white; 
+  position: fixed; 
+  top: 0;
+  box-shadow: 0px 3px 2px 1px #7F7F7F;
+  opacity: 0; 
+  animation: appear 1s 6s forwards; 
+}
+
+// h2 {
+//   font-size: 4rem;
+//   font-weight: bold;
+//   transform: rotate(-90deg);
+//   position: absolute; 
+// }
+
+.story__board--style {
+  h2 {
+    top: 50vh;
+    left: -5vh;
+  }
+}
+
+.story__board--conception {
+    h2 {
+    top: 50vh;
+    left: -20vh;
+  }
+}
+
+// h2 {
+//   display: none;
+// }
+
+// section Contact
+
+.story__board--3d {
+}
+
+.contact {
+  box-shadow: #5B5858;
+  width: 40vw;
+  margin: 0 auto;
+  height: 40vh;
+  transform: translateY(30vh);
+}
+
+.contact_title {
+  margin-top: 15px;
+  color: #E49376;
+  font-size: 34px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.bullshit {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.icon {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; 
+  width: auto;
+  transform: translateX(10vh);
+  height: 10vh;
+}
+
+.contactos {
+
+}
+
+.iconcontact {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.iconcontact:hover {
+  border: solid #E49376; 
+  border-radius: 50%;
+}
+
+.phone {
+}
+
+.tel {
+  margin-left: 250px; 
+}
+
+.copyr {
+  position: absolute;
+  bottom: 5vh; 
+  left: 40vw; 
+  font-size: 0.8rem; 
+>>>>>>> ef1c60e2e0dc437ec65bbc3effe5f38881b20bbd
 }
