@@ -92,9 +92,9 @@ section {
   position: fixed;
 }
 
-.loaderbuild {
-  opacity: 1;
-  transform: scale(0.2) translateY(-200vh);
+.logobuild {
+  position: absolute;
+  transform: translateX(18.5vw) scale(1.05);
 }
 
 .hammer {
