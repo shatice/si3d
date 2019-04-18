@@ -8,6 +8,7 @@
   <meta name="description" content="L'ATELIER's web site | Storefront manufacturers" />
   <link rel="icon" type="image/png" href="./assets/img/logo.png" />
   <link rel="stylesheet" href="./scss/styles.scss">
+  <script type="text/javascript" src="js/waypoints.js"></script>
   <script defer type="text/javascript" src="js/script.js"></script>
 </head>
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xml:space="preserve">
@@ -521,6 +522,12 @@
 
 <body>
   <header>
+    <!-- <ul class="list__icons">
+      <li><svg class="list__icon list__icon--insta"><use xlink:href="#insta"></use></svg></li>
+      <li><svg class="list__icon list__icon--line"><use xlink:href="#line"></use></svg></li>
+      <li><svg class="list__icon list__icon--twitter"><use xlink:href="#twitter"></use></svg></li>
+    </ul>
+    <button> <a target="_blank" href="./build.html">3D EXPERIENCE</a></button> -->
   </header>
   <svg class="loader" aria-hidden="true"><use xlink:href="#logo"></use></svg>
   <section class="home">
@@ -536,16 +543,16 @@
         <p>晴</p>
       </div>
     </div>
-    <div class="contscroll">
+    <div class="contscroll"><a href="#style">
         <p>Scroll</p>
         <div class="scroll"></div>
-      </div>
+      </a></div>
   </section>
   <!-- HORIZONTAL SCROLL BEGINS -->
   <section class="container--horizontal">
     <div class="container--inner">
       <div class="story--container">
-        <div class="story__board story__board--style">
+        <div id="style" class="story__board story__board--style">
           <section class="style__content">
             <div class="style__article">
               <svg class="style__icon style__icon--wood" aria-hidden="true"><use xlink:href="#wood"></use></svg>
@@ -610,7 +617,7 @@
       <li><svg class="list__icon list__icon--line"><use xlink:href="#line"></use></svg></li>
       <li><svg class="list__icon list__icon--twitter"><use xlink:href="#twitter"></use></svg></li>
     </ul>
-    <button> <a target="_blank" href="./build.html">3D EXPERIENCE</a></button>
+    <button><a target="_blank" href="./build.html">3D EXPERIENCE</a></button>
   </footer>
 </body>
 </html>
