@@ -38,7 +38,7 @@ function setTranslateX(element, progression) {
   element.style.transform = 'translateX(' + transform + ')';
 };
 
-// WAYPOINTS 
+// SCROLL BEHAVIOUR
 
 let screenPositions = [],
     timer = null; 
@@ -66,3 +66,6 @@ function getClosestScreen(scrollPosition) {
     return Math.abs(curr - scrollPosition) < Math.abs(prev - scrollPosition) ? curr : prev;
   })
 }
+
+// WAIPOINTS 
+

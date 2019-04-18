@@ -63,7 +63,7 @@ body {
 // HEADER
 
 header {
-  z-index: -1;
+  z-index: 0;
   width: 100vw; 
   height: 10vh;
   background: white; 
@@ -71,7 +71,7 @@ header {
   top: 0;
   box-shadow: 0px 3px 2px 1px #7F7F7F;
   opacity: 0; 
-  animation: appear 1s 6s forwards; 
+  animation: appear 1s 4s forwards; 
 }
 
 .headerbuild {
@@ -91,7 +91,7 @@ section {
   width: 100vw; 
   height: 100vh;
   opacity: 0;
-  animation: appear 3s forwards, reduce 1s 5s forwards;
+  animation: appear 2s forwards, reduce 1s 3s forwards;
   position: fixed;
 }
 
@@ -102,7 +102,7 @@ section {
 
 .hammer {
   transform: rotate(0) translateY(0) translateX(0);
-  animation: work 1.5s 1s ease-out alternate;
+  animation: work 0.5s 1s ease-out alternate;
   animation-iteration-count: 2;
 }
 
@@ -120,11 +120,11 @@ h1 {
 
 .intro, .introjapan, .welcomeboy, .contscroll {
   opacity: 0;
-  animation: appear 1s 6s forwards;
+  animation: appear 1s 4s forwards;
 }
 
 .introjapan {
-  animation: appearo 1s 6s forwards;
+  animation: appearo 1s 4s forwards;
 }
 
 .intro {
@@ -149,6 +149,7 @@ h1 {
   top: 25vh;
   opacity: 0.3;
   color: #5B5858;
+  z-index: -10; 
 }
 
 .welcomeboy {
@@ -278,7 +279,7 @@ button {
 
 .style__icon {
   width: 150px;
-  transition: all 1s;
+  transition: all 0.5s;
   opacity: 0.5; 
 
   &:hover {
@@ -472,11 +473,11 @@ h3 {
   width: 50px;
   height: 50px;
   cursor: pointer;
+  transition: all 1s; 
 }
 
 .iconcontact:hover {
-  border: solid #E49376; 
-  border-radius: 50%;
+  transform: scale(1.2);
 }
 .tel {
   margin-left: 250px; 
@@ -496,7 +497,7 @@ footer {
   position: fixed; 
   top: 2vh;  
   opacity: 0; 
-  animation: appear 1s 6s forwards;  
+  animation: appear 1s 4s forwards;  
 }
 
 .list__icons {
@@ -509,8 +510,9 @@ footer {
   width: 50px; 
   height: 50px;
   cursor: pointer; 
+  transition: all 1s; 
+}
 
-  svg {
-    width: 100%;
-  }
+.list__icon:hover {
+  transform: scale(1.2);
 }
