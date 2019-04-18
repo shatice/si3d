@@ -19,33 +19,41 @@
 .style__icon {
   width: 150px;
   transition: all 1s;
+  opacity: 0.5; 
+
+  &:hover {
+    opacity: 1; 
+  }
 }
 
 .style__icon--wood {
-  fill: #8C8172;
+  // fill: #8C8172;
   &:hover {
     fill: #8C8172;
   }
 }
 
 .style__icon--eiffel {
-  fill: #E49376;
+  // fill: #E49376;
   &:hover {
     fill: #E49376;
   }
 }
 
 .style__icon--green {
-  fill: #829D27;
+  // fill: #829D27;
   &:hover {
     fill: #829D27;
   }
 }
 
 .text {
-  line-height: 1.5; 
+  line-height: 1.5;
+  color: #6A9C9D;
 }
 
 h3 {
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #E49376;
 }
