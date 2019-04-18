@@ -50,6 +50,9 @@
 
 // GLOBAL
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   overflow-x: hidden;
   position: relative;
