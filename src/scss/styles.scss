@@ -203,17 +203,19 @@ button {
   height: 90px;  
   cursor: pointer;
   opacity: 0;
+}
 
-  p {
-    color: #6A9C9D;
-  }
+.scrolltext {
+  color: #6A9C9D;
+  font-weight: bolder;
 }
 
 .scroll {
-  margin-top: 5px; 
   height: 50px; 
   width: 5px; 
+  margin: 10px auto;
   background: #6A9C9D;
+  align-self: center;
 }
 
 // HORIZONTAL
