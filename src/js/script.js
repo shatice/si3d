@@ -40,32 +40,32 @@ function setTranslateX(element, progression) {
 
 // SCROLL BEHAVIOUR
 
-let screenPositions = [],
-    timer = null; 
+// let screenPositions = [],
+//     timer = null; 
 
-window.addEventListener('scroll', function() {
+// window.addEventListener('scroll', function() {
 
-  let wh = window.innerHeight;
-  let horizontalWidth = horizontal.offsetHeight - wh;
-  screenPositions = [wh, wh + horizontalWidth / 2, wh + horizontalWidth];
+//   let wh = window.innerHeight;
+//   let horizontalWidth = horizontal.offsetHeight - wh;
+//   screenPositions = [wh, wh + horizontalWidth / 2, wh + horizontalWidth];
 
-  if (timer !== null) {
-    this.clearTimeout(timer)
-  }
-  console.log(window.scrollY > window.innerHeight)
-  timer = setTimeout(() => {
-    if (window.scrollY > window.innerHeight) {
-      let closestScreen = getClosestScreen(window.scrollY)
-      document.documentElement.scrollTop = document.body.scrollTop = closestScreen
-    }
-  }, 200);
-})
+//   if (timer !== null) {
+//     this.clearTimeout(timer)
+//   }
+//   console.log(window.scrollY > window.innerHeight)
+//   timer = setTimeout(() => {
+//     if (window.scrollY > window.innerHeight ||  window.scrollY <) {
+//       let closestScreen = getClosestScreen(window.scrollY)
+//       document.documentElement.scrollTop = document.body.scrollTop = closestScreen
+//     }
+//   }, 200);
+// })
 
-function getClosestScreen(scrollPosition) {
-  return screenPositions.reduce(function(prev, curr) {
-    return Math.abs(curr - scrollPosition) < Math.abs(prev - scrollPosition) ? curr : prev;
-  })
-}
+// function getClosestScreen(scrollPosition) {
+//   return screenPositions.reduce(function(prev, curr) {
+//     return Math.abs(curr - scrollPosition) < Math.abs(prev - scrollPosition) ? curr : prev;
+//   })
+// }
 
 // WAIPOINTS 
 
